@@ -23,6 +23,15 @@ console.log(typeof javascriptIsFun);
  console.log(typeof 'Jonas');
 javascriptIsFun = 'YES!';
 console.log(typeof javascriptIsFun);
+
+
+let aLetVariable = "jonas bro"; //variables that can change later - during prog execution
+console.log(aLetVariable);
+aLetVariable = 23;
+console.log(aLetVariable);
+const aConstVariable = 23;
+//aConstVariable = 234; 
+console.log(aConstVariable);
 /*
 ////////////////////////////////////
 // Linking a JavaScript File
