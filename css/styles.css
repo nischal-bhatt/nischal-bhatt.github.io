@@ -1,0 +1,12 @@
+body {
+   background-color: cyan;	
+}
+
+hr{
+ background-color:maroon;
+ border-style:none;
+}
+
+ img{
+    height:100px;
+ }
