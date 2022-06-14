@@ -32,6 +32,11 @@ console.log(aLetVariable);
 const aConstVariable = 23;
 //aConstVariable = 234; 
 console.log(aConstVariable);
+
+//completely avoid var
+var job = 'programmer';
+job = 2378;
+console.log(job);
 /*
 ////////////////////////////////////
 // Linking a JavaScript File
