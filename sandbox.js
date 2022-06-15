@@ -91,3 +91,12 @@ let html = `
 `;
 
 alert(html);
+
+let ninjas = ['shaun','ryu','chun-li'];
+ninjas[1] = 'ken';
+console.log(ninjas);
+console.log(ninjas[1]); // will print ryu
+
+let random = ['shaun','crystal',30,20];
+
+console.log(random);
