@@ -158,3 +158,16 @@ const calculator = function (radius)
 
 let returnVal = calculator(10);
 console.log(returnVal);
+
+
+const calc = (radius) => {
+	return 3.14 * radius**2;
+}; 
+
+
+console.log(calc(10));
+
+
+const ArrowFun = () => 'hello';
+
+console.log(ArrowFun());
