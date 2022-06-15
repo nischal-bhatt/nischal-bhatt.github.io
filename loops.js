@@ -117,3 +117,26 @@ if (true)
 console.log(omg);
 console.log(scopeVar);
 //console.log(name123);
+
+
+
+
+greet();
+greet();
+greet();
+
+function greet()
+{
+	console.log('first function');
+	
+}
+
+
+
+const speak = function ()
+{
+	console.log('speaking function');
+};
+
+speak();
+speak();
