@@ -71,3 +71,7 @@ console.log('area is ' + PI*radius**2);
 console.log(2+ 3 * 3 - 4); //BIDMAS
 
 console.log(++radius);
+
+console.log(5/'a');
+
+console.log ('heya' + 5);
