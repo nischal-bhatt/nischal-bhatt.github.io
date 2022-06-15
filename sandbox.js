@@ -67,3 +67,7 @@ let radius = 10;
 const PI = 3.142;
 
 console.log('area is ' + PI*radius**2);
+
+console.log(2+ 3 * 3 - 4); //BIDMAS
+
+console.log(++radius);
