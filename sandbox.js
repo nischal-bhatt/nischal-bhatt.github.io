@@ -75,3 +75,10 @@ console.log(++radius);
 console.log(5/'a');
 
 console.log ('heya' + 5);
+
+const title = 'best reads of 2019';
+const author = 'mario';
+const likes = 30;
+
+let titleAuthorLikes = `The blog called ${title} by ${author} has ${likes} likes`;
+console.log(titleAuthorLikes);
