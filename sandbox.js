@@ -115,3 +115,19 @@ console.log(age12345, age12345+3, `the age is ${age12345}`);
 age12345 = null;
 
 console.log(age12345, age12345+3, `the age is ${age12345}`);
+
+let luigi = 'nish';
+
+let luigiresult = luigi.includes('i');
+console.log(luigiresult);
+
+let ageage = 25;
+//are these 2 things the same? 
+console.log (ageage == 25);
+console.log (ageage != 30); //loose equality
+
+// use === to ensure type checking also 
+
+let ageageage = 25;
+console.log(ageageage == '25');
+console.log(ageageage === '25'); //strict equa;lity type checking
