@@ -15,3 +15,24 @@ var score = 75;
 console.log(score); // this is older way
 score = 22;
 console.log(score);
+
+/*
+   number
+   string
+   boolean
+   null
+   undefined
+   object
+   symbol
+*/
+
+let trueOrFalse = true;
+console.log(typeof trueOrFalse);
+
+let aVar = null;
+console.log(typeof aVar);
+
+let bVar;
+console.log(typeof bVar);
+
+//symbols?
