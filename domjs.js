@@ -44,3 +44,7 @@ paraparapara.forEach(eachItemLaOi => {
 	 console.log(eachItemLaOi.innerText);
 	 eachItemLaOi.innerText += 'changed';
 });
+
+const contentParam = document.querySelector('.content');
+
+contentParam.innerHTML = `<marquee> ${contentParam.innerHTML} nisch changed this</marquee>`;
