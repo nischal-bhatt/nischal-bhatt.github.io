@@ -104,3 +104,6 @@ console.log(random);
 let result23 = ninjas.join(',');
 
 console.log(result23);
+
+ninjas.push('omegle'); //destructive method
+console.log(ninjas);
