@@ -63,3 +63,11 @@ console.log(Math.trunc(-2.389));
 const random = Math.random();
 
 console.log(Math.round(random*100));
+
+
+const aNewObj = {
+	key : 'value'
+}
+
+//aNewObj is a reference type that is stored on the stack
+// the object itself with the key and value is stored on the heap
