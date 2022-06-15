@@ -71,3 +71,15 @@ const aNewObj = {
 
 //aNewObj is a reference type that is stored on the stack
 // the object itself with the key and value is stored on the heap
+
+
+let userOne = {
+	name:'shaun',
+	score:100
+}
+
+let userTwo = userOne;
+
+userTwo.name = 'nish';
+
+console.log(userOne.name);
