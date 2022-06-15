@@ -49,3 +49,15 @@ let fullName = email + ' ' + name1;
 console.log(fullName.length); //length is a property
  
 console.log(fullName.toUpperCase()); //toUpperCase is a method
+
+let result = fullName.toUpperCase(); //original value fullName is not altered
+alert(result);
+alert(fullName);
+
+let VariableNish = 'nish';
+let VariableNish1 = VariableNish.lastIndexOf('s');
+console.log(VariableNish1);
+
+
+let a_new_var = VariableNish.slice(0,2);
+console.log(a_new_var);
