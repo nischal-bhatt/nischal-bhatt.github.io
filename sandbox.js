@@ -82,3 +82,12 @@ const likes = 30;
 
 let titleAuthorLikes = `The blog called ${title} by ${author} has ${likes} likes`;
 console.log(titleAuthorLikes);
+alert(titleAuthorLikes);
+
+let html = `
+ <h2>${title}</h2>
+ <p>${author}</p>
+ <p>${likes}</p>
+`;
+
+alert(html);
