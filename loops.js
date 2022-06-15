@@ -190,3 +190,24 @@ let people = ['aa','bb','cc','dd','ee'];
 people.forEach(val => {
 	  console.log('something');
 });
+
+
+const ul = document.querySelector('.people');
+
+const people2 = ['nish','prayah','buma','ravubdrab','ontario','deedxc','garydxc'];
+
+let html = ``;
+
+const CallBackLa = person => {
+	html += `<li style="background-color:powderblue">${person}</li>`;
+};
+
+people2.forEach(CallBackLa);
+
+//people2.forEach(function(person){
+//	  html += `<li style="background-color:yellow">${person}</li>`;
+//});
+
+console.log(html);
+
+ul.innerHTML= html;
