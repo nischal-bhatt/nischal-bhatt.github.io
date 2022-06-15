@@ -142,9 +142,19 @@ speak();
 speak();
 
 
-const speakeasy = function(name123)
+const speakeasy = function(name123='orange')
 {
 	console.log(`good day ${name123}`);
 }
 
 speakeasy ('ni');
+
+
+const calculator = function (radius)
+{
+	let area = 3.14 * radius**2;
+    return area;
+};
+
+let returnVal = calculator(10);
+console.log(returnVal);
