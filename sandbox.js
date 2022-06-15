@@ -4,7 +4,7 @@ console.log(1);
 let age = 25;
 let year = 1991;
 console.log(age);
-age = 'this is my age';
+age = 'this is my age'; //loosely typed
 console.log(age, year);
 
 const points = 100;
