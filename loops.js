@@ -172,3 +172,14 @@ const ArrowFun = () => 'hello';
 
 console.log(ArrowFun());
 //methods are invoked using dot notations, functions are not
+
+const myFunc = (callbackFunc) => {
+	let value = 50;
+	callbackFunc(value);
+}
+
+myFunc(function (val)
+{
+	val = val + 200;
+	console.log(val);
+});
