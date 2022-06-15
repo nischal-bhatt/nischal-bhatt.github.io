@@ -171,3 +171,4 @@ console.log(calc(10));
 const ArrowFun = () => 'hello';
 
 console.log(ArrowFun());
+//methods are invoked using dot notations, functions are not
