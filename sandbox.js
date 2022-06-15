@@ -131,3 +131,7 @@ console.log (ageage != 30); //loose equality
 let ageageage = 25;
 console.log(ageageage == '25');
 console.log(ageageage === '25'); //strict equa;lity type checking
+
+let scoreStr = '100';
+let scoreNum = Number(scoreStr);
+console.log(scoreNum + 1); // should get 101;
