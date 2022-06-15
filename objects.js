@@ -53,3 +53,13 @@ let arrayOfObjects = [
 ];
 
 console.log(arrayOfObjects);
+console.log(Math);
+
+console.log(Math.PI);
+
+console.log(Math.abs(-2.389));
+console.log(Math.trunc(-2.389));
+
+const random = Math.random();
+
+console.log(Math.round(random*100));
