@@ -194,12 +194,12 @@ people.forEach(val => {
 
 const ul = document.querySelector('.people');
 
-const people2 = ['nish','prayah','buma','ravubdrab','ontario','deedxc','garydxc'];
+const people2 = ['nish','prayah','buma','ravubdrab','ontario','deedxc','garydxc','punani'];
 
 let html = ``;
 
-const CallBackLa = person => {
-	html += `<li style="background-color:powderblue">${person}</li>`;
+const CallBackLa = baklava => {
+	html += `<li style="background-color:powderblue">${baklava}</li>`;
 };
 
 people2.forEach(CallBackLa);
