@@ -100,3 +100,7 @@ console.log(ninjas[1]); // will print ryu
 let random = ['shaun','crystal',30,20];
 
 console.log(random);
+
+let result23 = ninjas.join(',');
+
+console.log(result23);
