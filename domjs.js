@@ -47,4 +47,11 @@ paraparapara.forEach(eachItemLaOi => {
 
 const contentParam = document.querySelector('.content');
 
-contentParam.innerHTML = `<marquee> ${contentParam.innerHTML} nisch changed this</marquee>`;
+//contentParam.innerHTML = `<marquee> ${contentParam.innerHTML} nisch changed this</marquee>`;
+
+
+const people = ['mario','luigui','yoshi'];
+
+people.forEach(person => {
+	 contentParam.innerHTML += `<p>${person}</p`;
+});
