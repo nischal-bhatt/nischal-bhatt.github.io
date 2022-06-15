@@ -19,3 +19,15 @@ console.log(para3);
 const paras = document.querySelectorAll('p');
 
 console.log(paras[2]);
+
+const title = document.getElementById('page-title');
+
+console.log(title);
+
+const errors = document.getElementsByClassName('error');
+
+console.log(errors[0]);
+
+const tags = document.getElementsByTagName('p');
+
+console.log(tags);
