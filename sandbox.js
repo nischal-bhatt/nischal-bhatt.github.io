@@ -61,3 +61,9 @@ console.log(VariableNish1);
 
 let a_new_var = VariableNish.slice(0,2);
 console.log(a_new_var);
+
+
+let radius = 10;
+const PI = 3.142;
+
+console.log('area is ' + PI*radius*radius);
