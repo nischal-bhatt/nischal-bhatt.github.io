@@ -13,3 +13,5 @@ console.log(points);
 
 var score = 75;
 console.log(score); // this is older way
+score = 22;
+console.log(score);
