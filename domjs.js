@@ -31,3 +31,16 @@ console.log(errors[0]);
 const tags = document.getElementsByTagName('p');
 
 console.log(tags);
+
+const parapara = document.querySelector('p');
+
+console.log(parapara.innerText);
+
+parapara.innerText = 'ninjas are awesome';
+
+const paraparapara = document.querySelectorAll('p');
+
+paraparapara.forEach(eachItemLaOi => {
+	 console.log(eachItemLaOi.innerText);
+	 eachItemLaOi.innerText += 'changed';
+});
