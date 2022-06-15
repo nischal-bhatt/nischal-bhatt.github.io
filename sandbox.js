@@ -107,3 +107,11 @@ console.log(result23);
 
 ninjas.push('omegle'); //destructive method
 console.log(ninjas);
+
+let age12345;
+
+console.log(age12345, age12345+3, `the age is ${age12345}`);
+
+age12345 = null;
+
+console.log(age12345, age12345+3, `the age is ${age12345}`);
