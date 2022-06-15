@@ -140,3 +140,11 @@ const speak = function ()
 
 speak();
 speak();
+
+
+const speakeasy = function(name123)
+{
+	console.log(`good day ${name123}`);
+}
+
+speakeasy ('ni');
