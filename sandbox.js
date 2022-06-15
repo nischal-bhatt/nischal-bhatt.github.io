@@ -10,3 +10,6 @@ console.log(age, year);
 const points = 100;
 console.log(points);
 //points = 200 - this is not allowed
+
+var score = 75;
+console.log(score); // this is older way
