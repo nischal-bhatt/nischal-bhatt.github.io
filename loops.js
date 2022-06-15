@@ -183,3 +183,10 @@ myFunc(function (val)
 	val = val + 200;
 	console.log(val);
 });
+
+
+let people = ['aa','bb','cc','dd','ee'];
+
+people.forEach(val => {
+	  console.log('something');
+});
