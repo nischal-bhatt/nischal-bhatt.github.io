@@ -36,3 +36,16 @@ let bVar;
 console.log(typeof bVar);
 
 //symbols?
+
+let email = 'mario@thenetninja.co.uk';
+let name1 = 'maruo';
+console.log(name1+ ' ' + email);  // concatenation
+
+console.log(email[3]);
+
+console.log(name1.length);
+
+let fullName = email + ' ' + name1;
+console.log(fullName.length); //length is a property
+ 
+console.log(fullName.toUpperCase()); //toUpperCase is a method
