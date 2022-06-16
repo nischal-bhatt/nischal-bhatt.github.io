@@ -18,3 +18,4 @@ const titl = document.querySelector('h2');
 console.log(titl.parentElement);
 console.log(titl.parentElement.parentElement);
 console.log(titl.nextElementSibling);
+console.log(titl.nextElementSibling.parentElement.children);
