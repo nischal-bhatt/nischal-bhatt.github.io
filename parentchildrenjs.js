@@ -33,9 +33,26 @@ itemz.forEach(item => {
 	item.addEventListener('click', e => {
 		//console.log('item clicked');
 	    console.log(e.target);
-	    e.target.style.textDecoration = 'line-through';
-	
+	   // e.target.style.textDecoration = 'line-through';
+	     e.target.remove();
 	});
 });
 
+	const ulul = document.querySelector('ul');
 	
+	//ulul.remove();
+
+	
+	const butt = document.querySelector('button');
+	
+	butt.addEventListener('click', ()=> {
+		
+		//ulul.innerHTML += '<li>some new </li>';
+		
+		const lilili = document.createElement('li');
+		
+		lilili.textContent = 'haha';
+		
+		ulul.append(lilili);
+		
+	} );
