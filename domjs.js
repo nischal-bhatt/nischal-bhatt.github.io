@@ -55,3 +55,15 @@ const people = ['mario','luigui','yoshi'];
 people.forEach(person => {
 	 contentParam.innerHTML += `<p>${person}</p`;
 });
+
+const linky = document.querySelector('a');
+
+console.log(linky.getAttribute('href'));
+
+linky.setAttribute('href','https://www.thenetninja.co.uk');
+linky.innerText = 'The net ninja website';
+
+const h22 = document.querySelector('h2');
+console.log(h22);
+h22.setAttribute('class','success');
+h22.setAttribute('style', 'color:purple');
