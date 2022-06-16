@@ -67,3 +67,17 @@ const h22 = document.querySelector('h2');
 console.log(h22);
 h22.setAttribute('class','success');
 h22.setAttribute('style', 'color:purple');
+
+
+const titley = document.querySelector('h3');
+
+//titley.setAttribute('style', 'margin:50px'); // this will overwrite whats currently there
+
+console.log(titley.style.color);
+
+titley.style.margin = '50px';
+titley.style.color='crimson';
+titley.style.fontSize = '60px';
+titley.style.margin = '';
+
+console.log(titley.style);
