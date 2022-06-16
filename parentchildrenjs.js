@@ -27,16 +27,17 @@ console.log(titl.nextElementSibling.parentElement.children);
 //	console.log('you clicked me');
 //});
 
-const itemz = document.querySelectorAll('li');
+//const itemz = document.querySelectorAll('li');
 
-itemz.forEach(item => {
-	item.addEventListener('click', e => {
+//itemz.forEach(item => {
+	//item.addEventListener('click', e => {
 		//console.log('item clicked');
-	    console.log(e.target);
+	  //  console.log(e.target);
+	 //   e.stopPropagation();
 	   // e.target.style.textDecoration = 'line-through';
-	     e.target.remove();
-	});
-});
+	 //    e.target.remove();
+	//});
+//});
 
 	const ulul = document.querySelector('ul');
 	
@@ -56,3 +57,16 @@ itemz.forEach(item => {
 		ulul.append(lilili);
 		
 	} );
+	
+	
+	ulul.addEventListener('click', e => {
+		  console.log('event in ul');  //event bubbling
+		  console.log(e.target);
+		  
+		  if (e.target.tagName === 'LI')
+		  {
+			e.target.remove();
+		}
+		  
+		  
+	});
