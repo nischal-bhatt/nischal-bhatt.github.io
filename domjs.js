@@ -81,3 +81,35 @@ titley.style.fontSize = '60px';
 titley.style.margin = '';
 
 console.log(titley.style);
+
+
+
+const contentAAA = document.querySelector('h4');
+
+console.log(contentAAA.classList);
+
+contentAAA.classList.remove('pumab');
+contentAAA.classList.add('pumabsuccess');
+
+
+console.log(contentAAA.classList);
+
+
+
+const parasLima = document.querySelectorAll('h6');
+
+parasLima.forEach(p=> {
+	if (p.textContent.includes('error'))
+	{
+		p.classList.add('pumab');
+	}else
+	{
+		p.classList.add('pumabsuccess');
+	}
+});
+
+const titular = document.querySelector('.title');
+console.log(titular);
+
+titular.classList.toggle('pumabsuccess');
+titular.classList.toggle('pumabsuccess');
